@@ -12,6 +12,10 @@ You can install ChatGPT Avatar Remover directly from the Chrome Web Store. Follo
 
 The extension will be added to your Chrome browser, and you can start using it immediately.
 
+## Screenshots
+
+<img width="640" alt="Screenshot 2023-10-17 at 12 55 43" src="https://github.com/Austinae/ChatGPT-Avatar-Remover/assets/44261381/f6b48dce-9dc7-47a1-bf6d-c6ed1f646551">
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
