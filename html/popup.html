@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			width: 200px;
+			padding: 10px;
+		}
+
+		#logo {
+			width: 100%;
+			max-width: 100px;
+			display: block;
+			margin: 0 auto;
+		}
+
+		#closeButton {
+			width: 100%;
+			cursor: pointer;
+		}
+
+		#close {
+			max-width: 1rem;
+			aspect-ratio: 1;
+			display: block;
+			margin-left: auto;
+		}
+
+		hr {
+			margin: 10px 0;
+		}
+	</style>
+</head>
+<body>
+		<div id="closeButton">
+			<img id="close" src="../img/close.svg" />
+		</div>
+		<img src="../img/android-chrome-512x512.png" id="logo" alt="Logo Image">
+		<hr>
+		<p>Hey, welcome to this extension!</p>
+		<p>This extension is <span><b id="status">enabled</b></span></p>
+		<button id="toggleButton">Disable extension</button>
+		<p><i>To see it live, make sure you're actively looking at your chatgpt tab</i></p>
+		<script src="../js/popup.js"></script>
+</body>
+</html>
